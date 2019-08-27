@@ -1,0 +1,39 @@
+﻿@model ShelleyArnold_CodeChallange.Models.Result
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Results</h1>
+
+<div>
+    <h4>Preamble Challange</h4>
+    <hr />
+    <p>
+        We the People of the United States,
+        in Order to form a more perfect Union, establish Justice, insure domestic Tranquility,
+        provide for the common defense, promote the general Welfare, and secure the Blessings
+        of Liberty to ourselves and our Posterity, do ordain and establish this Constitution for
+        the United States of America.
+    </p>
+    <dl class="row">
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.StartsWithT)
+        </dt>
+        <dd class = "col-sm-7">
+            @Html.DisplayFor(model => model.StartsWithT)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.EndsWithE)
+        </dt>
+        <dd class = "col-sm-7">
+            @Html.DisplayFor(model => model.EndsWithE)
+        </dd>
+        <dt class = "col-sm-6">
+            @Html.DisplayNameFor(model => model.TAndE)
+        </dt>
+        <dd class = "col-sm-7">
+            @Html.DisplayFor(model => model.TAndE)
+        </dd>
+    </dl>
+</div>
