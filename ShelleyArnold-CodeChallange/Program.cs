@@ -8,7 +8,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Logging;
 
-namespace ShelleyArnold_CodeChallange
+namespace ShelleyArnold_CodeChallenge
 {
     public class Program
     {

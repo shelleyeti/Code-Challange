@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netcoreapp2.2</TargetFramework>
     <AspNetCoreHostingModel>InProcess</AspNetCoreHostingModel>
-    <RootNamespace>ShelleyArnold_CodeChallange</RootNamespace>
+    <RootNamespace>ShelleyArnold_CodeChallenge</RootNamespace>
   </PropertyGroup>
 
 

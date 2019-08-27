@@ -4,9 +4,9 @@ using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using ShelleyArnold_CodeChallange.Models;
+using ShelleyArnold_CodeChallenge.Models;
 
-namespace ShelleyArnold_CodeChallange.Controllers
+namespace ShelleyArnold_CodeChallenge.Controllers
 {
     public class HomeController : Controller
     {

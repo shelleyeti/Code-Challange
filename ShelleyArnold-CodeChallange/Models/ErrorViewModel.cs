@@ -1,6 +1,6 @@
 using System;
 
-namespace ShelleyArnold_CodeChallange.Models
+namespace ShelleyArnold_CodeChallenge.Models
 {
     public class ErrorViewModel
     {
