@@ -41,11 +41,11 @@ namespace ShelleyArnold_CodeChallenge.Controllers
                 {
                     result.TAndE++;
                 }
-                else if (word.StartsWith("t", StringComparison.InvariantCultureIgnoreCase))
+                if (word.StartsWith("t", StringComparison.InvariantCultureIgnoreCase))
                 {
                     result.StartsWithT++;
                 }
-                else if (word.EndsWith("e", StringComparison.InvariantCultureIgnoreCase))
+                if (word.EndsWith("e", StringComparison.InvariantCultureIgnoreCase))
                 {
                     result.EndsWithE++;
                 }
